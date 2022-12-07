@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <h1>Sandwich Maker</h1>
+    <h2>Ingredients</h2>
+    <ul>
+        {% for ingredient in ingredients %}
+        <li>
+            <a href="/sandwich/ingredients/{{ingredient}}"> {{ingredient}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <p>  yummy                       </p>
+</body>
+
+
+
+
+
+
+</html>
